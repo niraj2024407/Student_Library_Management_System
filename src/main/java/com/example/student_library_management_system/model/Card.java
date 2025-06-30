@@ -1,3 +1,4 @@
+
 package com.example.student_library_management_system.model;
 
 import com.example.student_library_management_system.enums.CardStatus;
@@ -81,5 +82,29 @@ public class Card {
 
     public void setUpdatedDate(Date updatedDate) {
         this.updatedDate = updatedDate;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
+    public List<Book> getBooksOfCard() {
+        return booksOfCard;
+    }
+
+    public void setBooksOfCard(List<Book> booksOfCard) {
+        this.booksOfCard = booksOfCard;
+    }
+
+    public List<Transaction> getTransactionList() {
+        return transactionList;
+    }
+
+    public void setTransactionList(List<Transaction> transactionList) {
+        this.transactionList = transactionList;
     }
 }

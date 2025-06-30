@@ -109,4 +109,12 @@ public class Student {
     public void setDob(String dob) {
         this.dob = dob;
     }
+
+    public Card getCard() {
+        return card;
+    }
+
+    public void setCard(Card card) {
+        this.card = card;
+    }
 }
